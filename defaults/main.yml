@@ -1,0 +1,14 @@
+---
+aptget_update: true
+aptget_update_cache_valid_time: 3600
+
+aptget_upgrade: false
+aptget_distupgrade: false
+
+programas_instalar:
+  - mc
+  - nano
+  - sysv-rc-conf
+  - python-pip
+  - python-dev
+  - libmysqlclient-dev
