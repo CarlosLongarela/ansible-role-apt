@@ -1,4 +1,4 @@
-Ansible Role: Nginx
+Ansible Role: Apt
 =========
 
 Basics apps installation for other roles and system administration. This role is util for a empty xenial ubuntu before execute other roles.
@@ -33,11 +33,17 @@ None.
 Example Playbook
 ----------------
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
-
     - hosts: servers
+
+      gather_facts: no
+      become: true
+
+      vars:
+        aptget_update_cache_valid_time: 3600
+        aptget_upgrade: true
+
       roles:
-         - { role: CarlosLongarela.apt, x: 42 }
+         - { role: CarlosLongarela.apt }
 
 License
 -------
