@@ -14,10 +14,10 @@ Role Variables
     aptget_update: true
     aptget_update_cache_valid_time: 3600
 
-    aptget_upgrade: false
+    aptget_upgrade: true
     aptget_distupgrade: false
 
-    programas_instalar:
+    aptget_install:
       - mc
       - nano
       - sysv-rc-conf
@@ -39,8 +39,8 @@ Example Playbook
       become: true
 
       vars:
-        aptget_update_cache_valid_time: 3600
-        aptget_upgrade: true
+        aptget_update_cache_valid_time: 1800
+        aptget_distupgrade: true
 
       roles:
          - { role: CarlosLongarela.apt }

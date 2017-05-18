@@ -5,4 +5,4 @@
     state: latest
     update_cache: yes
     cache_valid_time: "{{ aptget_update_cache_valid_time }}"
-  with_items: "{{ programas_instalar }}"
+  with_items: "{{ aptget_install }}"
