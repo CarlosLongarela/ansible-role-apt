@@ -2,6 +2,8 @@ Ansible Role: Apt
 =========
 
 [![Build Status](https://travis-ci.org/CarlosLongarela/ansible-role-apt.svg?branch=master)](https://travis-ci.org/CarlosLongarela/ansible-role-apt)
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/CarlosLongarela/ansible-role-apt.svg)](http://isitmaintained.com/project/CarlosLongarela/ansible-role-apt "Percentage of issues still open")
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/CarlosLongarela/ansible-role-apt.svg)](http://isitmaintained.com/project/CarlosLongarela/ansible-role-apt "Average time to resolve an issue")
 
 Basics apps installation for other roles and system administration. This role is util for a empty xenial ubuntu before execute other roles.
 
