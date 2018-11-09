@@ -9,6 +9,7 @@ aptget_install:
   - mc
   - nano
   - sysv-rc-conf
+  - mosh
   - python-pip
   - python-dev
   - libmysqlclient-dev
