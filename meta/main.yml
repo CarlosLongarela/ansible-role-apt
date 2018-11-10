@@ -1,11 +1,12 @@
 galaxy_info:
+  role_name: apt
   author: Carlos Longarela
   description: Basics apps installation for other roles and system administration.
-  company: Desarrollo web Carlos Longarela
+  company: Taberna WordPress
 
-  license: license GPLv2
+  license: GPLv3
 
-  min_ansible_version: 1.8
+  min_ansible_version: 2.5
 
   platforms:
    - name: Ubuntu
